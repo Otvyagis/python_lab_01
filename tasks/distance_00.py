@@ -1,4 +1,4 @@
-def distance_00():
+def distance():
     sites = {
         'Moscow': (550, 370),
         'London': (510, 510),
@@ -14,4 +14,4 @@ def distance_00():
             distances[city1][city2] = dist
 
     print(distances)
-distance_00()
+distance()

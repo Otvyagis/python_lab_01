@@ -1,4 +1,4 @@
-def shopping_09():
+def shopping():
     shops = {
         'ашан':
             [
@@ -41,4 +41,4 @@ def shopping_09():
             {'shop': 'магнит', 'price': 62.99},
         ],
     }
-shopping_09()
+shopping()

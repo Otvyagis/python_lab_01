@@ -1,4 +1,4 @@
-def songs_list_06():
+def songs_list():
     violator_songs_list = [
         ['World in My Eyes', 4.86],
         ['Sweetest Perfection', 4.43],
@@ -34,4 +34,4 @@ def songs_list_06():
     blue_dress_time = violator_songs_dict['Blue Dress']
     other_total_time = sweetest_perfection_time + policy_of_truth_time + blue_dress_time
     print("А другие три песни звучат", round(other_total_time), "минут")
-songs_list_06()
+songs_list()

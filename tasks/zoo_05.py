@@ -1,4 +1,4 @@
-def zoo_05():
+def zoo():
     zoo = ['lion', 'kangaroo', 'elephant', 'monkey', ]
 
     zoo.insert(2, "bear")
@@ -12,4 +12,4 @@ def zoo_05():
     print(zoo)
 
     print(zoo.index("lion") + 1, zoo.index("lark") + 1)
-zoo_05()
+zoo()

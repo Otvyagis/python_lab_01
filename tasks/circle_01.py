@@ -1,4 +1,4 @@
-def circle_01():
+def circle():
     radius = 42
 
     square = round(3.1415926 * radius ** 2, 4)
@@ -14,4 +14,5 @@ def circle_01():
     bool_2 = distance_2 <= radius
 
     print(square, "\n", bool_1, "\n", bool_2)
-circle_01()
+
+circle()

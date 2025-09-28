@@ -1,4 +1,4 @@
-def secret_07():
+def secret():
     secret_message = [
         'квевтфпп6щ3стмзалтнмаршгб5длгуча',
         'дьсеы6лц2бане4т64ь4б3ущея6втщл6б',
@@ -14,4 +14,4 @@ def secret_07():
     fifth = secret_message[4][20:15:-1]
 
     print(first, second, third, fourth, fifth)
-secret_07()
+secret()

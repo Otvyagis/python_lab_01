@@ -1,4 +1,4 @@
-def store_10():
+def store():
     goods = {
         'Лампа': '12345',
         'Стол': '23456',
@@ -51,4 +51,4 @@ def store_10():
                 store[chair_code][1]['quantity'] * store[chair_code][1]['price'] + \
                 store[chair_code][2]['quantity'] * store[chair_code][2]['price']
     print('Стул -', chair_quantity, 'шт, стоимость', chair_cost, 'руб')
-store_10()
+store()
