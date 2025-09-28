@@ -17,7 +17,7 @@
 
 3. Запуск отдельных заданий:
     ```bash
-    python tasks/cities.py
+    python tasks/distance_00.py
 
 4. Запуск всех тестов:
     ```bash
