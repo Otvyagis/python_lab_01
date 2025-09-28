@@ -1,0 +1,15 @@
+def zoo_05():
+    zoo = ['lion', 'kangaroo', 'elephant', 'monkey', ]
+
+    zoo.insert(2, "bear")
+    print(zoo)
+
+    birds = ['rooster', 'ostrich', 'lark', ]
+    zoo.extend(birds)
+    print(zoo)
+
+    zoo.remove("elephant")
+    print(zoo)
+
+    print(zoo.index("lion") + 1, zoo.index("lark") + 1)
+zoo_05()
